@@ -9,6 +9,7 @@ $(document).ready(function () {
     $(document).ready(function(){
         console.log("thêm người dùng");
     })
+    
     var nguoiDungService = new NguoiDungService();
     var ajaxNguoiDung = nguoiDungService.LayDanhSachNguoiDung();
     ajaxNguoiDung
