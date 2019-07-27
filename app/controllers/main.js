@@ -5,6 +5,10 @@ lấy danh sách người dúng từ backend về
 $(document).ready(function () {
     //code
     var mangNguoiDung = [];
+
+    $(document).ready(function(){
+        console.log("thêm người dùng");
+    })
     var nguoiDungService = new NguoiDungService();
     var ajaxNguoiDung = nguoiDungService.LayDanhSachNguoiDung();
     ajaxNguoiDung
